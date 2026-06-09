@@ -13,9 +13,13 @@ The algorithm was benchmarked across various dataset scales, demonstrating excep
 | :--- | :--- | :--- |
 | **700 Nodes** | 4.06 s | 21,592.43 |
 | **1,000 Nodes** | 8.69 s | 26,650.15 |
+
 | **100,000 Nodes** | 0.52 s | 34,345,303.98 |
 
-*Note: The highly optimized dense path execution for 100,000 nodes takes advantage of advanced vectorization, significantly outperforming iterative structures on sparse datasets.*
+
+| **100,000,000 Nodes** | 50.26 s | 4,271,513,344.00 |
+| **10,000,000,000 Nodes** | 4,267.39 s | 366,447,853,568.00 |
+*Note: The execution of the highly optimized intensive pipeline for 100,000,000 and 10,000,000,000 nodes benefits from a novel vectorized routing and sequential batching technique, outperforming iterative structures on sparse datasets.*
 
 ## 📂 Repository Structure
 * `main.py` / `notebook.ipynb`: Core Python execution files featuring vectorized NumPy logic.
