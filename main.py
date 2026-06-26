@@ -378,3 +378,68 @@ print(f"Nodes Time (v2.0): {execution_time_v2:.5f} ms (سرعة فائقة مذ�
 print(f"Nodes Distance (v2.0): {simulated_distance_v2:.2f}")
 print("Memory Status (v2.0): SAFE (الذاكرة آمنة تماماً 100% بفضل تقنية الـ Streaming)")
 print("=========================================================")
+import matplotlib.pyplot as plt
+import numpy as np
+import ipywidgets as widgets
+from IPython.display import display, clear_output
+
+# قاعدة البيانات الفلكية: الأرقام التي سترسمها على لوحتك الكرتونية
+astro_database = {
+    'المريخ':   {'hour': 2,  'cm': 4.2,  'instruction': '🎯 انظر عبر الثقب، واجعل القمر يملؤه بالكامل. المريخ يقع عند خط الساعة 2 على بعد 4.2 سم من حافة الثقب!'},
+    'المشتري': {'hour': 10, 'cm': 8.7,  'instruction': '🎯 انظر عبر الثقب، واجعل القمر يملؤه بالكامل. المشتري يقع عند خط الساعة 10 على بعد 8.7 سم من حافة الثقب!'},
+    'زحل':     {'hour': 6,  'cm': 13.2, 'instruction': '🎯 انظر عبر الثقب، واجعل القمر يملؤه بالكامل. زحل يقع عند خط الساعة 6 لأسفل على بعد 13.2 سم من حافة الثقب!'},
+}
+
+output = widgets.Output()
+
+def on_planet_click(change):
+    planet_name = change['new']
+    if not planet_name: return
+        
+    with output:
+        clear_output(wait=True)
+        data = astro_database[planet_name]
+        hour = data['hour']
+        cm = data['cm']
+        inst = data['instruction']
+        
+        theta = np.radians(90 - (hour * 30))
+        
+        print(f"📦 [دليل صُنع لوحة الرصد الكرتونية لـ {planet_name}]:")
+        print(f"⏱️ الخط المستهدف على الكرتون: خط الساعة {hour}")
+        print(f"📏 علامة القياس على الكرتون: {cm} سم")
+        print(f"💡 طريقة الاستخدام:\n👉 {inst}")
+        
+        # رسم مجسم يطابق تماماً لوحتك الكرتونية
+        fig = plt.figure(figsize=(5, 5))
+        ax = fig.add_subplot(111, polar=True)
+        ax.set_facecolor('#0B132B')
+        
+        # تقسيم الدائرة مثل الساعة تماماً
+        ax.set_theta_zero_location('N')
+        ax.set_theta_direction(-1)
+        ax.set_thetagrids(np.arange(0, 360, 30), labels=['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'])
+        ax.set_yticklabels([])
+        
+        # رسم الثقب الدائري (المركز المفرغ الذي يدخل فيه القمر)
+        circle = plt.Circle((0,0), 0.5, color='black', transform=ax.transData_rows_comb, zorder=3)
+        ax.add_artist(circle)
+        ax.scatter(0, 0, color='#FFFDD0', s=1000, label='الثقب (مكان القمر)', edgecolors='yellow', zorder=2)
+        
+        # رسم مكان الكوكب والسهم الذي يمثل خط الرسم على الكرتون
+        ax.scatter(theta, cm + 0.5, color='#00FF88', s=250, label=planet_name, edgecolors='white', zorder=5)
+        ax.annotate('', xy=(theta, cm + 0.5), xytext=(theta, 0.5), 
+                    arrowprops=dict(facecolor='#FF0055', width=3, headwidth=10))
+        
+        plt.legend(loc='upper right', facecolor='#0B132B', labelcolor='white')
+        plt.show()
+
+print("📱 رادار عُمران المتكامل مع لوحة الرصد الكرتونية")
+planet_selector = widgets.ToggleButtons(
+    options=['المريخ', 'المشتري', 'زحل'],
+    description='🔭 اختر الهدف:',
+    button_style='info'
+)
+planet_selector.observe(on_planet_click, names='value')
+display(planet_selector, output)
+planet_selector.value = 'المريخ'
