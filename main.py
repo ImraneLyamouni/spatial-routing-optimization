@@ -394,7 +394,8 @@ output = widgets.Output()
 
 def on_planet_click(change):
     planet_name = change['new']
-    if not planet_name: return
+    if not planet_name: 
+        return
         
     with output:
         clear_output(wait=True)
@@ -422,7 +423,7 @@ def on_planet_click(change):
         ax.set_yticklabels([])
         
         # رسم الثقب الدائري (المركز المفرغ الذي يدخل فيه القمر)
-        circle = plt.Circle((0,0), 0.5, color='black', transform=ax.transData_rows_comb, zorder=3)
+        circle = plt.Circle((0,0), 0.5, color='black', zorder=3)
         ax.add_artist(circle)
         ax.scatter(0, 0, color='#FFFDD0', s=1000, label='الثقب (مكان القمر)', edgecolors='yellow', zorder=2)
         
