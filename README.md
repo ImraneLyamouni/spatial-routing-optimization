@@ -60,9 +60,5 @@ One evening, while resting, I intuitively reverse-engineered the geometric propo
 
 ### 🔗 The Synergy:
 This innate capacity for dynamic dimensional scaling, quick numerical scaling, and advanced spatial rotation is the identical core cognitive architecture I implemented to map planetary tracks in my Polar Astronomy applications and optimize the 1-Quadrillion node cosmic streaming pipeline seen in Version 2.0 of this repository.
-import matplotlib.pyplot as plt
-import numpy as np
-import ipywidgets as widgets
-from IPython.display import display, clear_output
 
 
