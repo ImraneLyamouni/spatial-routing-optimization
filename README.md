@@ -72,3 +72,10 @@ I have officially deployed the definitive core architecture of my geospatial eng
 This dynamic circular maze layout is inspired by spontaneous 3D mental rotation configurations visualized during pure cognitive rest states.
 
 
+## 🏎️🧲 Hydro-Magnetic Equilibrium: Balanced Gravity Turbine & Isolated Magnetic Lift
+
+I have finalized the definitive mechanical configuration of my self-sustaining vehicle, strictly separating the driving forces for perfect kinetic equilibrium:
+
+### 📐 Mechanical Distribution & Task Separation:
+1. **The Hydro-Gravitational Propulsion (Wheel Drive):** The fluid (water) drops naturally from the upper reservoir using pure gravitational potential energy. This descending stream strikes the sequential spoon-turbine array, converting fluid energy directly into mechanical torque to spin the drive shaft and move the wheels forward.
+2. **The Isolated Magnetic Lift Motor (Fluid Recycle):** Completely separate from the wheel drive, a dedicated **Magnetic Induction Core** is integrated into the lower base. This magnetic motor provides the precise mechanical energy required to spin the lower impeller (fan), creating upward hydrodynamic pressure to lift the collected water back into the top bottle.
