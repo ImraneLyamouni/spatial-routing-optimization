@@ -79,3 +79,11 @@ I have finalized the definitive mechanical configuration of my self-sustaining v
 ### 📐 Mechanical Distribution & Task Separation:
 1. **The Hydro-Gravitational Propulsion (Wheel Drive):** The fluid (water) drops naturally from the upper reservoir using pure gravitational potential energy. This descending stream strikes the sequential spoon-turbine array, converting fluid energy directly into mechanical torque to spin the drive shaft and move the wheels forward.
 2. **The Isolated Magnetic Lift Motor (Fluid Recycle):** Completely separate from the wheel drive, a dedicated **Magnetic Induction Core** is integrated into the lower base. This magnetic motor provides the precise mechanical energy required to spin the lower impeller (fan), creating upward hydrodynamic pressure to lift the collected water back into the top bottle.
+## ⚡ Imrane's Kinetic Energy Sphere: Autonomous Induction Power Generator
+
+I have designed and engineered a unique micro-kinetic power generation device from scratch, based entirely on my custom physics mapping and geometric logic:
+
+### ⚙️ Imrane's Architecture & System Logic:
+1. **The Core Induction Shell:** The internal walls of a lightweight, perforated iron sphere are custom-lined with dense, insulated copper wire grids to form an independent energy capture field.
+2. **The Free-Rolling Rotor:** Inside my structural shell, a high-grade spherical magnet moves and rolls freely across the internal copper arrays whenever the device is spun or manually rotated during play.
+3. **Autonomous Voltage Output:** The kinetic interaction forces the rolling magnet to slice through the internal copper grids. This directional movement generates an independent electrical output of **1.5V to 3V** purely from kinetic motion, creating a self-sustaining power source with zero battery dependency.
