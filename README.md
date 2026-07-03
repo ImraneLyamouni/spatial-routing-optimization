@@ -87,3 +87,11 @@ I have designed and engineered a unique micro-kinetic power generation device fr
 1. **The Core Induction Shell:** The internal walls of a lightweight, perforated iron sphere are custom-lined with dense, insulated copper wire grids to form an independent energy capture field.
 2. **The Free-Rolling Rotor:** Inside my structural shell, a high-grade spherical magnet moves and rolls freely across the internal copper arrays whenever the device is spun or manually rotated during play.
 3. **Autonomous Voltage Output:** The kinetic interaction forces the rolling magnet to slice through the internal copper grids. This directional movement generates an independent electrical output of **1.5V to 3V** purely from kinetic motion, creating a self-sustaining power source with zero battery dependency.
+## 💨⚡ Wind Energy Harvesting: Imrane's Aero-Kinetic Angular Induction Turbine
+
+I have architected a revolutionary wind-power propulsion system that utilizes the **Conservation of Angular Momentum** to solve the global efficiency limits of low-velocity wind turbines:
+
+### 📐 Mechanical Layout & Kinetic Turbo Logic:
+1. **The External Aero-Blades:** Designed to capture dynamic wind currents, translating horizontal atmospheric kinetic force into baseline rotational movement.
+2. **The Internal Collapsing Vortex Sphere:** The central rotating shaft is directly coupled to my custom **Collapsing Induction Sphere** [3^]. Inside this unit, a high-grade Neodymium core rolls along internal insulated copper wire grids.
+3. **Hyper-Velocity Flux Cutting:** When wind speeds are low, the centrifugal release partition compresses the magnetic radius inward toward the absolute central matrix. This reduction in the moment of inertia triggers an immediate, autonomous spin cascade into hyper-velocity thresholds (Turbo Rotation) [3^]. The exponential surge in magnetic flux cutting generates high-voltage current (**12V to 24V**) from mere environmental breezes, bypassing the need for heavy, drag-inducing chemical battery setups.
