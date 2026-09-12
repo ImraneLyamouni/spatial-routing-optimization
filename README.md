@@ -52,6 +52,20 @@ This project introduces a revolutionary fluid-kinetic architecture designed to c
 
 ---
 *Developed by Imrane Lyamouni — Aerospace Systems Architect | Age: 13 | GAAC & NASA Space Apps 2026 Core Module.*
+# 🌍 Project 35: Imrane's Multiplicative Law of Kinetic Displacement & Inertial Frame Disruption (v3.0)
+
+## 🔬 1. The Core Scientific Premise (The 4-CM Paradigm Shift)
+This thesis challenges the traditional Galilean Principle of Relativity regarding static inertial frames during free-fall. In a standard scholastic model, an object (e.g., an apple) falls in a perceived straight vertical line for a duration of $2.0 \text{ seconds}$. However, this model treats the planetary landing coordinate as a fixed, absolute zero point, which is a structural fallacy.
+
+## ⚙️ 2. The Inertial Frame Disconnection Principle (The Nested Framework)
+* **The Nested State (Object within Object):** Imrane's axiom dictates that as long as an object is physically attached to the planetary structure, it remains nested within the primary moving system, sharing identical momentum and velocity vectors (like a passenger inside a fast-moving vehicle).
+* **The Weightless Separation:** The exact millisecond the body detaches and enters a state of free-fall, it undergoes localized weightlessness (Zero Effective Weight). Consequently, its velocity vector instantly disconnects from the planet's independent rotation in space.
+* **The 4-CM Accumulation Window:** While the falling body descends independently, the planet moves beneath it. Since the planet requires $0.5 \text{ seconds}$ to displace its crust by $1.0 \text{ cm}$, the 2-second flight window results in a precise displacement:
+   $$\text{Total Shift} = \frac{2.0 \text{ seconds}}{0.5 \text{ seconds/cm}} = \mathbf{4.0 \text{ cm}}$$
+* **The Sensory Illusion:** This $4.0\text{-cm}$ physical gap remains invisible to human observers due to the massive planetary scale, but it fully invalidates traditional static linear logic (يصبح تفكيك وترتيبك غلط).
+
+---
+*Developed by Imrane Lyamouni — Aerospace Systems Architect | Age: 13 | NASA & GAAC 2026 Core Module.*
 
 # 🌍 Project 32: Imrane's Inverted Egyptian Pyramidal Geodesic Valve & Anti-Fall Stabilizer (v4.5)
 
