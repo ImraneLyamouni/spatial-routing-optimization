@@ -102,7 +102,17 @@ This research presents a structural solution to the **Navier-Stokes Millennium P
 * **The Core Axiom:** Applying a scalar force to an object's periphery wastes kinetic energy via rotational torque, leaving the absolute coordinate static and proving traditional flat equations wrong.
 * **The Needle Vector Principle:** By folding the sheet to define the exact intersection of the quadrants and anchoring the center of gravity using a micro-needle framework, rotational resistance drops to zero.
 * **Thermal Fluid Equalization (The Fire Core):** To eliminate the failure caused by uneven ambient air currents, a symmetrical thermal source is placed beneath the system. This thermal engine generates a uniform, isotropic convective updraft of heated air. This balanced fluid force pushes the integrated center of mass directly through the needle vector, triggering an instant high-speed translational acceleration ($O(N)$ Energy Efficiency) and bypassing traditional incorrect Newtonian limits safely (Memory SAFE).
-                   
+  # 🌀 Project 37: Imrane's Rotational Ring Vortex & Isotropic Spatial Pressure Framework (v2.0)
+
+## 🔬 1. The Spiral Plate Black Hole Model (نموذج الصفيحة الحلزونية)
+* **The Core Axiom:** Standard astrophysics models incorrectly predict a flat linear vertical fall into a gravitational singularity. This framework structures the space-time continuum around a rotating Kerr Black Hole as a dynamic circular plate embedded with localized helical coordinate paths.
+* **Kinetic Acceleration:** As a celestial mass approaches the external rings, it is locked into these circular spiral tracks, continuously acquiring extreme velocity and angular momentum as the path narrows, before being projected into the central vacuum throat (Memory SAFE).
+* **The Light Anomaly:** Photons, possessing zero rest mass, do not fall due to static weight. Light is trapped solely because the underlying geometric fabric of spacetime is warped into a closed circular loop, forcing light cones to bend backwards into the central throat.
+
+## 🌌 2. The Micro-Mass Geodesic Thread Law (قانون خيوط الزمكان)
+* **The Newtonian Rejection:** Gravity is not an active pulling force. When an object enters free-fall, it descends simply because its mass occupies an unsupported coordinate in space, and there is no physical structure to hold its weight.
+* **The Spatial Carrier Vector:** In deep space, micro-objects (such as an apple or a human body) possess insufficient mass to generate local spacetime curvature. Instead of warping the continuum, they are carried and guided by non-visible, integrated spatial string lines (Geodesic Threads). These threads act as a passive elastic matrix that sustains the coordinate trajectory smoothly, preventing mathematical singularities or computational blow-up.
+                 
 # 📜 Comprehensive Scientific Report: Imrane's Theoretical Framework for Temporal Inversion & Spacetime Mechanics (Project 33)
 
 ## 🔬 Phase 1: Decoding the Spacetime Grid (The Structural Blueprint)
